@@ -23,6 +23,7 @@ public class MyAddServiceClassTest {
 	@Test
 	public void testAdd() {
 		assertEquals(2+2, myAddServiceClass.add(2, 2));
+		assertEquals(2+2, myAddServiceClass.add(2, 2));
 		assertEquals(2+3, myAddServiceClass.add(2, 3));
 		assertEquals(0+2, myAddServiceClass.add(0, 2));
 	}
