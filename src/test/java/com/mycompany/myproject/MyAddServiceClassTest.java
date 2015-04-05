@@ -22,6 +22,7 @@ public class MyAddServiceClassTest {
 
 	@Test
 	public void testAdd() {
+		// this is a master branch.
 		assertEquals(2+2, myAddServiceClass.add(2, 2));
 		assertEquals(2+2, myAddServiceClass.add(2, 2));
 		assertEquals(2+3, myAddServiceClass.add(2, 3));
